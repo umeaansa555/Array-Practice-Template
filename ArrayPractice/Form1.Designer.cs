@@ -67,7 +67,7 @@
             this.runButton.Location = new System.Drawing.Point(29, 69);
             this.runButton.Margin = new System.Windows.Forms.Padding(2);
             this.runButton.Name = "runButton";
-            this.runButton.Size = new System.Drawing.Size(156, 25);
+            this.runButton.Size = new System.Drawing.Size(195, 25);
             this.runButton.TabIndex = 0;
             this.runButton.Text = "Run";
             this.runButton.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@
             this.array1Output.Location = new System.Drawing.Point(29, 126);
             this.array1Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.array1Output.Name = "array1Output";
-            this.array1Output.Size = new System.Drawing.Size(156, 20);
+            this.array1Output.Size = new System.Drawing.Size(195, 20);
             this.array1Output.TabIndex = 3;
             this.array1Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -105,7 +105,7 @@
             this.array2Output.Location = new System.Drawing.Point(29, 171);
             this.array2Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.array2Output.Name = "array2Output";
-            this.array2Output.Size = new System.Drawing.Size(156, 20);
+            this.array2Output.Size = new System.Drawing.Size(195, 20);
             this.array2Output.TabIndex = 5;
             this.array2Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -154,7 +154,7 @@
             this.titleLabel.Location = new System.Drawing.Point(-1, -3);
             this.titleLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(453, 52);
+            this.titleLabel.Size = new System.Drawing.Size(501, 52);
             this.titleLabel.TabIndex = 10;
             this.titleLabel.Text = "Fun With Arrays";
             this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -173,7 +173,7 @@
             this.array1Group.Controls.Add(this.maxOutput);
             this.array1Group.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.array1Group.ForeColor = System.Drawing.Color.White;
-            this.array1Group.Location = new System.Drawing.Point(217, 63);
+            this.array1Group.Location = new System.Drawing.Point(254, 63);
             this.array1Group.Margin = new System.Windows.Forms.Padding(2);
             this.array1Group.Name = "array1Group";
             this.array1Group.Padding = new System.Windows.Forms.Padding(2);
@@ -315,7 +315,7 @@
             this.reverseOutput.Location = new System.Drawing.Point(29, 226);
             this.reverseOutput.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.reverseOutput.Name = "reverseOutput";
-            this.reverseOutput.Size = new System.Drawing.Size(156, 20);
+            this.reverseOutput.Size = new System.Drawing.Size(195, 20);
             this.reverseOutput.TabIndex = 13;
             this.reverseOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -336,7 +336,7 @@
             this.swap2Output.BackColor = System.Drawing.Color.White;
             this.swap2Output.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap2Output.ForeColor = System.Drawing.Color.Black;
-            this.swap2Output.Location = new System.Drawing.Point(211, 95);
+            this.swap2Output.Location = new System.Drawing.Point(248, 95);
             this.swap2Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap2Output.Name = "swap2Output";
             this.swap2Output.Size = new System.Drawing.Size(156, 20);
@@ -348,7 +348,7 @@
             this.swap2Label.AutoSize = true;
             this.swap2Label.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap2Label.ForeColor = System.Drawing.Color.White;
-            this.swap2Label.Location = new System.Drawing.Point(208, 80);
+            this.swap2Label.Location = new System.Drawing.Point(245, 80);
             this.swap2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap2Label.Name = "swap2Label";
             this.swap2Label.Size = new System.Drawing.Size(135, 13);
@@ -360,7 +360,7 @@
             this.swap1Output.BackColor = System.Drawing.Color.White;
             this.swap1Output.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap1Output.ForeColor = System.Drawing.Color.Black;
-            this.swap1Output.Location = new System.Drawing.Point(211, 52);
+            this.swap1Output.Location = new System.Drawing.Point(248, 52);
             this.swap1Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap1Output.Name = "swap1Output";
             this.swap1Output.Size = new System.Drawing.Size(156, 20);
@@ -372,7 +372,7 @@
             this.swap1Label.AutoSize = true;
             this.swap1Label.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap1Label.ForeColor = System.Drawing.Color.White;
-            this.swap1Label.Location = new System.Drawing.Point(211, 32);
+            this.swap1Label.Location = new System.Drawing.Point(248, 32);
             this.swap1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap1Label.Name = "swap1Label";
             this.swap1Label.Size = new System.Drawing.Size(135, 13);
@@ -393,7 +393,7 @@
             this.enrichmentBox.Margin = new System.Windows.Forms.Padding(2);
             this.enrichmentBox.Name = "enrichmentBox";
             this.enrichmentBox.Padding = new System.Windows.Forms.Padding(2);
-            this.enrichmentBox.Size = new System.Drawing.Size(405, 137);
+            this.enrichmentBox.Size = new System.Drawing.Size(442, 137);
             this.enrichmentBox.TabIndex = 18;
             this.enrichmentBox.TabStop = false;
             this.enrichmentBox.Text = "Enrichment";
@@ -403,7 +403,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(452, 434);
+            this.ClientSize = new System.Drawing.Size(499, 434);
             this.Controls.Add(this.enrichmentBox);
             this.Controls.Add(this.reverseOutput);
             this.Controls.Add(this.reverseLabel);
