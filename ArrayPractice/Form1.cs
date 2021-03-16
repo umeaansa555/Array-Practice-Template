@@ -46,7 +46,7 @@ namespace ArrayPractice
             //5. Determine and display the largest value in array 1          
 
 
-            //6.Determine and display the average of all values in array 1
+            //6. Determine and display the average of all values in array 1
 
 
             //7. Determine and display the sum of all even values in array 1
