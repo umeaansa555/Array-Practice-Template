@@ -336,10 +336,10 @@
             this.swap2Output.BackColor = System.Drawing.Color.White;
             this.swap2Output.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap2Output.ForeColor = System.Drawing.Color.Black;
-            this.swap2Output.Location = new System.Drawing.Point(248, 95);
+            this.swap2Output.Location = new System.Drawing.Point(241, 95);
             this.swap2Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap2Output.Name = "swap2Output";
-            this.swap2Output.Size = new System.Drawing.Size(156, 20);
+            this.swap2Output.Size = new System.Drawing.Size(178, 20);
             this.swap2Output.TabIndex = 17;
             this.swap2Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -348,7 +348,7 @@
             this.swap2Label.AutoSize = true;
             this.swap2Label.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap2Label.ForeColor = System.Drawing.Color.White;
-            this.swap2Label.Location = new System.Drawing.Point(245, 80);
+            this.swap2Label.Location = new System.Drawing.Point(238, 82);
             this.swap2Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap2Label.Name = "swap2Label";
             this.swap2Label.Size = new System.Drawing.Size(135, 13);
@@ -360,10 +360,10 @@
             this.swap1Output.BackColor = System.Drawing.Color.White;
             this.swap1Output.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap1Output.ForeColor = System.Drawing.Color.Black;
-            this.swap1Output.Location = new System.Drawing.Point(248, 52);
+            this.swap1Output.Location = new System.Drawing.Point(241, 52);
             this.swap1Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap1Output.Name = "swap1Output";
-            this.swap1Output.Size = new System.Drawing.Size(156, 20);
+            this.swap1Output.Size = new System.Drawing.Size(178, 20);
             this.swap1Output.TabIndex = 15;
             this.swap1Output.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -372,7 +372,7 @@
             this.swap1Label.AutoSize = true;
             this.swap1Label.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap1Label.ForeColor = System.Drawing.Color.White;
-            this.swap1Label.Location = new System.Drawing.Point(248, 32);
+            this.swap1Label.Location = new System.Drawing.Point(238, 29);
             this.swap1Label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap1Label.Name = "swap1Label";
             this.swap1Label.Size = new System.Drawing.Size(135, 13);
