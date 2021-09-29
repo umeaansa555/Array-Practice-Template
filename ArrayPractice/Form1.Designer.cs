@@ -61,6 +61,7 @@
             // 
             // runButton
             // 
+            this.runButton.BackColor = System.Drawing.Color.Goldenrod;
             this.runButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.runButton.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.runButton.ForeColor = System.Drawing.Color.White;
@@ -70,7 +71,7 @@
             this.runButton.Size = new System.Drawing.Size(195, 25);
             this.runButton.TabIndex = 0;
             this.runButton.Text = "Run";
-            this.runButton.UseVisualStyleBackColor = true;
+            this.runButton.UseVisualStyleBackColor = false;
             this.runButton.Click += new System.EventHandler(this.runButton_Click);
             // 
             // array1Label
@@ -148,7 +149,7 @@
             // 
             // titleLabel
             // 
-            this.titleLabel.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.titleLabel.BackColor = System.Drawing.Color.Goldenrod;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleLabel.ForeColor = System.Drawing.Color.White;
             this.titleLabel.Location = new System.Drawing.Point(-1, -3);
@@ -336,7 +337,7 @@
             this.swap2Output.BackColor = System.Drawing.Color.White;
             this.swap2Output.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.swap2Output.ForeColor = System.Drawing.Color.Black;
-            this.swap2Output.Location = new System.Drawing.Point(241, 95);
+            this.swap2Output.Location = new System.Drawing.Point(241, 104);
             this.swap2Output.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.swap2Output.Name = "swap2Output";
             this.swap2Output.Size = new System.Drawing.Size(178, 20);
@@ -389,7 +390,7 @@
             this.enrichmentBox.Controls.Add(this.swap1Label);
             this.enrichmentBox.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enrichmentBox.ForeColor = System.Drawing.Color.White;
-            this.enrichmentBox.Location = new System.Drawing.Point(29, 267);
+            this.enrichmentBox.Location = new System.Drawing.Point(29, 274);
             this.enrichmentBox.Margin = new System.Windows.Forms.Padding(2);
             this.enrichmentBox.Name = "enrichmentBox";
             this.enrichmentBox.Padding = new System.Windows.Forms.Padding(2);
