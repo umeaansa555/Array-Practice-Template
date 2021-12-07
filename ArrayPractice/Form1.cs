@@ -114,7 +114,7 @@ namespace ArrayPractice
 
             for (int i = 0; i < array1.Length; i++)
             {
-                for (i; i < array2.Length; i++)
+                for (int i2 = 0; i2 < array2.Length; i2++)
                 {
                     if (array2[i] == array1[i])
                     {
@@ -122,8 +122,8 @@ namespace ArrayPractice
                     }
                 }
             }
+            matchOutput.Text = $"{samePosition}";
 
-            
 
 
             // ----------------------
