@@ -89,8 +89,7 @@ namespace ArrayPractice
 
             for (int i = 0; i < array1.Length; i++)
             {
-                
-                while (i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     sumEven = array1[i] + sumEven;
                 }
