@@ -23,14 +23,19 @@ namespace ArrayPractice
             Random randGen = new Random();
 
             int[] array1 = new int[10];
-
+            int[] array2 = new int[10];
 
             //1. Generate random values for BOTH pre-created arrays
             for (int i = 0; i < array1.Length; i++)
             {
                 array1[i] = randGen.Next(0, 10);
+                //array2[i] = randGen.Next(0, 10);
             }
 
+            for (int i = 0; i < array2.Length; i++)
+            {
+                array2[i] = randGen.Next(0, 10);
+            }
 
             //2. Display array 1
             array1Output.Text = "";
@@ -41,10 +46,18 @@ namespace ArrayPractice
 
 
             //3. Display array 2
-
+            array2Output.Text = "";
+            for (int i = 0; i < array2.Length; i++)
+            {
+                array2Output.Text += array2[i] + " ";
+            }
 
             //4. Display array 1 in reverse order
-
+            reverseOutput.Text = "";
+            for (int i = array1.Length -1; i >= 0; i--) // notice the -1, b/c arrays start at 0
+            {
+                reverseOutput.Text += array1[i] + " ";
+            }
 
             //5. Determine and display the largest value in array 1          
             int max = 0;
