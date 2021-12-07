@@ -112,6 +112,18 @@ namespace ArrayPractice
             //9. Determine and display how many matching numbers in matching positions between the 2 arrays there are
             int samePosition = 0;
 
+            for (int i = 0; i < array1.Length; i++)
+            {
+                for (i; i < array2.Length; i++)
+                {
+                    if (array2[i] == array1[i])
+                    {
+                        samePosition++;
+                    }
+                }
+            }
+
+            
 
 
             // ----------------------
