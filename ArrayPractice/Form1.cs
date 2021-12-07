@@ -100,7 +100,14 @@ namespace ArrayPractice
             //8. Determine and display the number of 3s in array 1
             int numThrees = 0;
 
-
+            for (int i = 0; i < array1.Length; i++)
+            {
+                if (array1[i] == 3)
+                {
+                    numThrees++;
+                }
+            }
+            threeOutput.Text = $"{numThrees}";
 
             //9. Determine and display how many matching numbers in matching positions between the 2 arrays there are
             int samePosition = 0;
