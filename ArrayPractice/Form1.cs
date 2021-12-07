@@ -87,6 +87,15 @@ namespace ArrayPractice
             //7. Determine and display the sum of all even values in array 1
             int sumEven = 0;
 
+            for (int i = 0; i < array1.Length; i++)
+            {
+                
+                while (i % 2 == 0)
+                {
+                    sumEven = array1[i] + sumEven;
+                }
+            }
+            evenOutput.Text = $"{sumEven}";
 
 
             //8. Determine and display the number of 3s in array 1
