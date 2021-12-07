@@ -62,6 +62,15 @@ namespace ArrayPractice
             //5. Determine and display the largest value in array 1          
             int max = 0;
 
+            for (int i = 0; i < array1.Length; i++)
+            {
+                if (array1[i] > max)
+                {
+                    max = array1[i];
+                }
+
+            }
+            maxOutput.Text = $"{max}";
 
             //6. Determine and display the average of all values in array 1
             double sum = 0;
