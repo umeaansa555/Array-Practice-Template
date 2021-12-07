@@ -76,6 +76,13 @@ namespace ArrayPractice
             double sum = 0;
             double average = 0;
 
+            for (int i = 0; i < array1.Length; i++)
+            {
+                sum = array1[i] + sum;
+                average = sum / array1.Length;
+            }
+            averageOutput.Text = $"{average}";
+
 
             //7. Determine and display the sum of all even values in array 1
             int sumEven = 0;
